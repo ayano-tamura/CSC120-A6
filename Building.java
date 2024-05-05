@@ -1,5 +1,5 @@
 public class Building {
-
+    // Default values that will be used throughout other classes
     protected String name = "<Name Unknown>";
     protected String address = "<Address Unknown>";
     protected int nFloors = 1;
@@ -29,9 +29,9 @@ public class Building {
         return this.name + " is a " + this.nFloors + "-story building located at " + this.address;
     }
 
-    public static void main(String[] args) {
-        Building fordHall = new Building("Ford Hall", "100 Green Street Northampton, MA 01063", 4);
-        System.out.println(fordHall);
-    }
+    // public static void main(String[] args) {
+    //     Building fordHall = new Building("Ford Hall", "100 Green Street Northampton, MA 01063", 4);
+    //     System.out.println(fordHall);
+    // }
 
 }
